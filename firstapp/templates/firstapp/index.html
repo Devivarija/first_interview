@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+ hello
+ 
+ {% for i in data %}
+ <li>
+ {{i}}
+ </li>
+ {% endfor %}
+
+  <a href="{% url 'post_new' %}"> new form </a>
+</body>
+</html>
